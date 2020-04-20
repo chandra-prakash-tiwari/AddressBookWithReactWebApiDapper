@@ -1,0 +1,136 @@
+.root{
+    padding: 0px;
+    margin: auto;
+}
+
+.head{
+    background-color: #3399cc;
+    margin: auto;
+    color: white;
+    padding: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.head h1{
+    margin: auto;
+}
+
+.navbar{
+
+    background-color: #333333 ;
+}
+
+.navbar .nav-item #add,
+.navbar .nav-item #home{
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #f7f7f7;
+    text-decoration: none;
+    margin: auto 10px;
+}
+
+.contacts-details{
+    border: 1.5px solid #dddddd;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding:0.5rem;
+}
+
+.contacts-details p{
+    margin: auto 0.5rem;
+    font-size: 0.9rem;
+    color:black;
+}
+
+.contacts-details h4{
+    color: black;
+}
+
+.contacts-details :hover {
+    color: black;
+    text-decoration: none;
+}
+
+span {
+    color: red;
+}
+
+a.contact-cointeiner{
+    color: black;
+}
+
+a.contact-cointeiner:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+a.contact-cointeiner h4,
+a.contact-cointeiner p{
+    padding: 0px 10px;
+}
+
+.content{
+    margin: 1rem;
+    display: flex;
+}
+.content .contacts-head{
+    margin-bottom: 0.5rem;
+}
+
+.form{
+    margin: 1rem;
+    border: 1.5px solid #dddddd;
+    padding: 1.5rem;
+
+}
+
+.contact-header{
+    display: flex;
+}
+
+.contact-header .contact-delete,
+.contact-header .contact-edit{
+    display: -webkit-inline-box;
+    color: black;
+    margin: auto 1.5rem;
+    font-size: 14px;
+}
+
+.contact-header .contact-delete img{
+    width: 25px;
+    height: 25px;
+}
+.contact-header .contact-edit img{
+    width: 18px;
+    height: 18px;
+}
+
+#addbtn{
+    background-color: green;
+    float: right;
+}
+
+textarea.form-control{
+    height: 4rem;
+    resize: none;
+}
+
+.contact-header .contact-delete:hover,
+.contact-header .contact-edit:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.display-contact-details{
+    margin: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-media{
+    margin: auto;
+}
+
+.website{
+    margin-top: 1rem;
+}
